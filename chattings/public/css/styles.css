@@ -1,0 +1,63 @@
+/* 전체 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* 채팅 박스 */
+#chatting_box {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow-y: scroll;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* 채팅 메시지 */
+#chatting_box div {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+/* 폼 스타일 */
+#chat_form {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#chat_form input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#chat_form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#chat_form button:hover {
+  background-color: #0056b3;
+}
+
+/* 인사말 */
+#hello_stranger {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
